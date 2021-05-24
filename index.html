@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VideoPreviews</title>
+</head>
+<body>
+
+<div class="Main">
+    <div class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">| My Videos</a> </li>
+            <li><a href="#">| My Favorites</a> </li>
+            <li><a href="#">| My Messages</a> </li>
+            <li><a href="#">| My Profile</a> </li>
+        </ul>
+            <button id="signout"onclick="signout()">signout</button>
+        
+    </div>
+        
+    <div class="maincontent">
+        <div class="col-1">
+            <h1 class="content-1">Forest</h1>
+            <video controls onmouseover="playvideo()" onmouseout="pause()" id="myVideo"  src="https://player.vimeo.com/external/291648067.sd.mp4?s=7f9ee1f8ec1e5376027e4a6d1d05d5738b2fbb29&profile_id=164&oauth2_token_id=57447761">
+            Your browser does not support the video tag. 
+            </video>
+            <video controls onmouseover="playvideo()" onmouseout="pause()" id="myVideo" source src="https://player.vimeo.com/external/357396260.sd.mp4?s=7900df824bf68682a805c54fa049cf53db5a49f4&profile_id=139&oauth2_token_id=57447761">
+            Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="https://player.vimeo.com/external/350239587.sd.mp4?s=b51d648b20590416b64ea9f4cadc262e5c289b4a&profile_id=139&oauth2_token_id=57447761">
+            Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="https://player.vimeo.com/external/313664852.sd.mp4?s=2625397c27fb95b13c0b41f826de8ada59b9ccc1&profile_id=164&oauth2_token_id=57447761">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="col-2">
+            <h1>Sunset</h1>
+        <video controls>
+            <source id="myVideo" onmouseover="play()" src="https://player.vimeo.com/external/452086752.sd.mp4?s=db500935a61d5acf1a9b34f9ee454dab7fb776b9&profile_id=139&oauth2_token_id=57447761">
+        Your browser does not support the video tag. </video>
+        <video controls>
+            <source id="myVideo" onmouseover="play()" src="https://player.vimeo.com/external/208459721.sd.mp4?s=8b9e0b715a556bb05b12f4b45b56d7c0697ec830&profile_id=164&oauth2_token_id=57447761">
+        Your browser does not support the video tag. </video>
+        <video controls>
+            <source id="myVideo" onmouseover="play()" src="https://player.vimeo.com/external/208455961.sd.mp4?s=5eab82f1fea897d530c300ba948a91059bfdb813&profile_id=164&oauth2_token_id=57447761">
+        Your browser does not support the video tag. </video>
+        <video controls>
+            <source id="myVideo" onmouseover="play()" src="https://player.vimeo.com/external/330241014.sd.mp4?s=062c0b46884fc98d7468a1c448568785862cd826&profile_id=164&oauth2_token_id=57447761">
+        Your browser does not support the video tag. </video>
+    </div>
+    <div class="col-3">
+        <h1 class="content-1">Forest</h1>
+        <video controls>
+            <source id="myVideo" onmouseover="play()" src="https://player.vimeo.com/external/291648067.sd.mp4?s=7f9ee1f8ec1e5376027e4a6d1d05d5738b2fbb29&profile_id=164&oauth2_token_id=57447761">
+        Your browser does not support the video tag. 
+        </video>
+        <video controls>
+            <source src="https://player.vimeo.com/external/357396260.sd.mp4?s=7900df824bf68682a805c54fa049cf53db5a49f4&profile_id=139&oauth2_token_id=57447761">
+        Your browser does not support the video tag.
+        </video>
+        <video controls>
+            <source src="https://player.vimeo.com/external/350239587.sd.mp4?s=b51d648b20590416b64ea9f4cadc262e5c289b4a&profile_id=139&oauth2_token_id=57447761">
+        Your browser does not support the video tag.
+        </video>
+        <video controls>
+            <source src="https://player.vimeo.com/external/313664852.sd.mp4?s=2625397c27fb95b13c0b41f826de8ada59b9ccc1&profile_id=164&oauth2_token_id=57447761">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    </div>
+    <!-- <div class="bottom-content">
+        <iframe id="iframe" width="300" height="200"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">>
+        </iframe>
+    </div> -->
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
